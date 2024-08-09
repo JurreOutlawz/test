@@ -2,12 +2,9 @@
 
 namespace JurreOutlawz\Test;
 
+use Inertia\Inertia;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use JurreOutlawz\Test\Commands\TestCommand;
-use Inertia\Inertia;
-use JurreOutlawz\test\Http\Middleware\HandleInertiaRequests;
-
 
 class TestServiceProvider extends PackageServiceProvider
 {
@@ -21,7 +18,7 @@ class TestServiceProvider extends PackageServiceProvider
     }
 
     public function boot()
-    {   
+    {
         $this->publishes([
             __DIR__.'/../public/jurreoutlawz/test' => public_path('jurreoutlawz/test'),
         ], 'assets');
@@ -30,5 +27,4 @@ class TestServiceProvider extends PackageServiceProvider
 
         parent::boot();
     }
-    
 }

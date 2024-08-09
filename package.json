@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/jurreoutlawz/test.svg?style=flat-square)](https://packagist.org/packages/jurreoutlawz/test) [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jurreoutlawz/test/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/jurreoutlawz/test/actions?query=workflow%3Arun-tests+branch%3Amain) [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jurreoutlawz/test/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jurreoutlawz/test/actions?query=workflow%3A\"Fix+PHP+code+style+issues\"+branch%3Amain) [![Total Downloads](https://img.shields.io/packagist/dt/jurreoutlawz/test.svg?style=flat-square)](https://packagist.org/packages/jurreoutlawz/test)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-vite-plugin": "^1.0.5",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "@inertiajs/vue3": "^1.2.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vue": "^3.4.37"
+  }
+}
